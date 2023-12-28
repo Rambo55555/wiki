@@ -1,3 +1,9 @@
 site_name: Rambo's wiki
+site_description: A wiki for Rambo's notes
+site_url: https://rambo55555.github.io/wiki/
 theme:
   name: material
+  language: en
+  logo: images/favicon.png
+  favicon: images/favicon.png
+  
