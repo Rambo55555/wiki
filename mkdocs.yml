@@ -1,1 +1,3 @@
-site_name: My Docs
+site_name: Rambo's wiki
+theme:
+  name: material
