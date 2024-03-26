@@ -45,7 +45,7 @@ docker-compose stop
 ```
 docker-compose logs
 ```
-clash-dashboard地址：`http://gpu6.csubot.cn:7880/`
+clash-dashboard地址：`IP:7880/`
 
 使用
 ```
