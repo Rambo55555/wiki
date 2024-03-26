@@ -7,9 +7,13 @@ docker pull dreamacro/clash
 docker pull haishanh/yacd
 ```
 
+```
 mkdir clash
 cd clash
 wget 'clash订阅地址' -O config.yaml（得把`external-controller: '127.0.0.1:9090'`改成`external-controller: '0.0.0.0:9090'`）
+```
+
+
 
 创建docker-compose.yml
 ```
