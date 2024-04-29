@@ -33,7 +33,18 @@ Host github.com
 HF_ENDPOINT=https://hf-mirror.com python train.py +model=codet5
 ```
 
+## Hugging face cache problem
+```bash
+conda env config vars set XDG_CACHE_HOME=/mnt/ssd2/rambo/.cache
+conda env config vars list
+
+# 迁移缓存
+mv /home/rambo/.cache/huggingface /mnt/ssd2/rambo/.cache/huggingface
+```
+
+
 ## pip国内镜像
+
 ```
 pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
 pip config set install.trusted-host mirrors.aliyun.com
