@@ -16,5 +16,15 @@ workspace=rambo55555
 project_name=cmg
 ```
 
+# 向量数据库
 
+## Faiss
+
+```python
+# pip install faiss-cpu
+```
+
+
+
+## milvus
 
