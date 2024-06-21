@@ -60,3 +60,59 @@ docker run -d \
 -e "discovery.type=single-node" \
 -e "ES_JAVA_OPTS=-Xms512m -Xmx512m" \
 elasticsearch:8.7.0
+
+
+
+解决启动问题
+https://blog.csdn.net/hhl18730252820/article/details/135462929
+
+```
+version: '3'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.14.0
+    container_name: esn01
+    environment:
+      #- node.name=esn01
+      #- cluster.name=liuxg-docker-cluster
+      #- cluster.initial_master_nodes=esn01
+      #- bootstrap.memory_lock=true
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      # - xpack.security.enrollment.enabled=true
+      # - xpack.security.autoconfiguration.enabled=true
+      - ES_JAVA_OPTS=-Xms4G -Xmx4G
+    # ulimits:
+    #   memlock:
+    #     soft: -1
+    #     hard: -1
+    volumes:
+      - esdata01:/home/rambo/es/data
+    ports:
+      - 9200:9200
+    networks:
+      - elastic
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.14.0
+    container_name: kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://localhost:9200
+    depends_on: 
+      - elasticsearch
+    ports:
+      - 5601:5601
+    networks:
+      - elastic
+
+networks:
+  elastic:
+    name: elastic
+    driver: bridge
+
+volumes:
+  esdata01:
+
+```
+
+安装：https://elasticstack.blog.csdn.net/article/details/122874932
