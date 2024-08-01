@@ -16,6 +16,20 @@ workspace=rambo55555
 project_name=cmg
 ```
 
+# NLTK
+
+解决nltk包下载不了的问题。手动下载包[https://www.nltk.org/nltk_data/]放在指定目录`/home/rambo/nltk_data`，使用的时候导入。目录层级关系要对应`/home/rambo/nltk_data/corpora/wordnet`
+
+```
+import nltk
+
+# 设置 NLTK 数据目录
+nltk_data_path = "/home/rambo/nltk_data"
+nltk.data.path.append(nltk_data_path)
+```
+
+
+
 # 向量数据库
 
 ## Faiss
