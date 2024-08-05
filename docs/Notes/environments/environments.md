@@ -81,3 +81,10 @@ jobs -l
 - 清除当前行：`ctrl + u`
 - 清除当前屏幕：`ctrl + l`
 
+# 迁移环境
+
+```
+cd /home/user/anaconda3/envs
+scp -r username@ip:"/home/user/anaconda3/envs/python310" ./
+```
+
