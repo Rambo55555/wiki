@@ -25,7 +25,12 @@ Host github.com
   Port 443
 ```
 
+## conda目录迁移
+
+https://blog.csdn.net/qq_34342853/article/details/123020957
+
 ## Hugging face internet problem
+
 ```python
     os.environ["http_proxy"] = "http://127.0.0.1:7890"
     os.environ["https_proxy"] = "http://127.0.0.1:7890"
