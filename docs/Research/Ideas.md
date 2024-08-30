@@ -24,3 +24,5 @@ Baselines: Mixtral-8x7B, Mixtral-7B, DeepSeek Coder, CodeLLaMA, fine-tuned CodeT
 
 - 确认已有数据集是否是多文件的
 - 复现已有模型
+- CCT5复现：下载数据、复现
+
