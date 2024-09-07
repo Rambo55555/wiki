@@ -56,3 +56,32 @@ if __name__ == '__main__':
 ```
 
 很奇怪。。。。
+
+
+
+每次切换环境都得导入LD_LIBRARY_PATH
+
+```
+echo $CONDA_PREFIX
+mkdir -p $CONDA_PREFIX/etc/conda/activate.d
+mkdir -p $CONDA_PREFIX/etc/conda/deactivate.d
+touch $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh
+touch $CONDA_PREFIX/etc/conda/deactivate.d/env_vars.sh
+
+vim $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh
+#!/bin/sh
+
+export LD_LIBRARY_PATH=/home/rambo/miniconda3/envs/spaco/lib/python3.10/site-packages/nvidia/cusparse/lib:$LD_LIBRARY_PATH
+
+vim $CONDA_PREFIX/etc/conda/deactivate.d/env_vars.sh
+#!/bin/sh
+ 
+unset LD_LIBRARY_PATH
+```
+
+参考资料：
+
+https://blog.csdn.net/qq_33431368/article/details/131098554
+
+https://zhuanlan.zhihu.com/p/658921815
+
