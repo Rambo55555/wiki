@@ -23,6 +23,14 @@ cat ~/.ssh/id_rsa.pub
 Host github.com
   Hostname ssh.github.com
   Port 443
+  
+# 测试连接
+ssh -T git@github.com
+
+# 服务器设置ssh密钥免登录
+vim ~/.ssh/authorized_keys
+复制id_rsa.pub文件内容
+
 ```
 
 ## conda目录迁移
