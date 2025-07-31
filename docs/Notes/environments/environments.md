@@ -31,6 +31,10 @@ ssh -T git@github.com
 vim ~/.ssh/authorized_keys
 复制id_rsa.pub文件内容
 
+# git bash环境切换conda环境
+conda init
+conda activate a
+
 ```
 
 ## conda目录迁移
