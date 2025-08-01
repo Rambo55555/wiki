@@ -12,3 +12,11 @@ import json
 json.dumps(json, indent=4)
 ```
 
+**Jupyter自动更新外部的包**
+
+```python
+%load_ext autoreload
+%autoreload 2
+
+```
+
