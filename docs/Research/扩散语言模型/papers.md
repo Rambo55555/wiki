@@ -2,51 +2,56 @@
 
 [返回方向首页](index.md)
 
-最新成功检索截止：2026-09-16T05:25:29.000Z（2026-09-15 22:25:29，America/Los_Angeles，UTC−07:00）。累计 28 篇。本次在上次截止后发现新公告 3 篇；近七日补录 DBTM，并核验其在窗口内升至 v2；既有论文 DenMark 有 1 项可复现协议代码更新。另复查原有 24 篇论文的版本历史，未发现新的 arXiv 版本。
+最新成功检索截止：2026-09-17T05:43:10.000Z（2026-09-16 22:43:10，America/Los_Angeles，UTC−07:00）。累计 31 篇。本次发现窗口内新公告 2 篇；补录 ASRD 并核验其在窗口内升至 v5、公开官方代码入口；另对 Register Tokens 与 DBTM 做 2 项资源状态纠正。复查原有论文版本历史，未发现其他新的 arXiv 版本。
 
-当前 28 篇中 24 篇已核验 arXiv v1；Flow Duality、CONDOR 与 DBTM 当前为 v2，PlaidQ 当前为 v2 撤稿记录。未独立确认正式论文集发表；作者的录用声明单独记录，不等同于正式发表。表中首发日期为 arXiv 首发，不据此断言没有更早的匿名投稿或公开版本。
+当前 31 篇中 26 篇已核验 arXiv v1；Flow Duality、CONDOR 与 DBTM 当前为 v2，ASRD 为 v5，PlaidQ 为 v2 撤稿记录。未独立确认正式论文集发表；作者的录用声明单独记录，不等同于正式发表。表中首发日期采用 arXiv 版本历史记录；DANTINOX 与 GroupKV 的版本记录日期早于其本期首次进入官方 `new` 公告批次，详情见日报。
 
 | 论文 | arXiv ID | 首发日期 | 已核验版本 | 方向 | 首次收录 / 最近检查 |
 | --- | --- | --- | --- | --- | --- |
-| [Early-Bird Decoding](https://arxiv.org/abs/2609.16450) | 2609.16450 | 2026-09-15 | v1（检查 2026-09-15） | 学习式可变块、并行提交与服务 | [2026-09-15](daily/2026-09-15.md)（截止后新公告） |
-| [Register Tokens](https://arxiv.org/abs/2609.16372) | 2609.16372 | 2026-09-14 | v1（检查 2026-09-15） | 固定连续状态、跨块推理与代码 | [2026-09-15](daily/2026-09-15.md)（截止后新公告） |
-| [PrismDiff / Joint Multi-Stream Diffusion](https://arxiv.org/abs/2609.16312) | 2609.16312 | 2026-09-14 | v1（检查 2026-09-15） | 多流扩散、翻译与并行服务 | [2026-09-15](daily/2026-09-15.md)（截止后新公告） |
-| [Discrete Beckmann Transport Models / DBTM](https://arxiv.org/abs/2609.15903) | 2609.15903 | 2026-09-14 | v2（2026-09-15；检查 2026-09-15） | 自治传输图、一步生成与自纠错 | [2026-09-15](daily/2026-09-15.md)（旧文补录 / v2 更新） |
-| [Orthrus 数值精度复现](https://arxiv.org/abs/2609.15504) | 2609.15504 | 2026-09-14 | v1（检查 2026-09-15） | AR–扩散混合、无损性与数值精度 | [2026-09-14](daily/2026-09-14.md)（截止后新公告） |
-| [Temporal Self-Distillation](https://arxiv.org/abs/2609.15177) | 2609.15177 | 2026-09-14 | v1（检查 2026-09-15） | 时间自蒸馏与低 NFE 解码 | [2026-09-14](daily/2026-09-14.md)（截止后新公告） |
-| [DA-DLM](https://arxiv.org/abs/2609.15070) | 2609.15070 | 2026-09-14 | v1（检查 2026-09-15） | 位置 DAG、token 依赖与重掩码 | [2026-09-14](daily/2026-09-14.md)（截止后新公告） |
-| [DenMark](https://arxiv.org/abs/2609.14257) | 2609.14257 | 2026-09-13 | v1（检查 2026-09-15） | 扩散语义水印与鲁棒检测 | [2026-09-14](daily/2026-09-14.md)（截止后新公告）；资源更新 [2026-09-15](daily/2026-09-15.md) |
-| [CanvasAnneal](https://arxiv.org/abs/2609.13060) | 2609.13060 | 2026-09-11 | v1（检查 2026-09-15） | 推理/工具使用 RL 与课程探索 | [2026-09-14](daily/2026-09-14.md)（旧文补录） |
-| [Representation-based Masked Diffusion Model](https://arxiv.org/abs/2609.12382) | 2609.12382 | 2026-09-11 | v1（检查 2026-09-15） | 全局语义表征与并行联合协调 | [2026-09-13](daily/2026-09-13.md)（截止后新公告）；复查 2026-09-15 |
-| [Fixed State, Long Reach](https://arxiv.org/abs/2609.11998) | 2609.11998 | 2026-09-09 | v1（检查 2026-09-15） | Mamba/混合骨干与常数状态缓存 | [2026-09-14](daily/2026-09-14.md)（旧文补录） |
-| [Thinking with Looped Flows](https://arxiv.org/abs/2609.11801) | 2609.11801 | 2026-09-10 | v1（检查 2026-09-15） | 关联方法：循环流与迭代推理 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-15 |
-| [Routing by Reasoning Need](https://arxiv.org/abs/2609.11315) | 2609.11315 | 2026-09-10 | v1（检查 2026-09-15） | 扩散 VLM 的轨迹感知解码 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-15 |
-| [Flow Duality and Source Geometry](https://arxiv.org/abs/2609.10863) | 2609.10863 | 2026-09-09 | v2（2026-09-13；检查 2026-09-15） | 连续—离散流对偶与源分布设计 | [2026-09-13](daily/2026-09-13.md)（旧文补录）；v2 补正 [2026-09-14](daily/2026-09-14.md) |
-| [Epoch](https://arxiv.org/abs/2609.09748) | 2609.09748 | 2026-09-09 | v1（检查 2026-09-15） | MoE 推理与服务 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-15 |
-| [Let It Go / Self-Correct](https://arxiv.org/abs/2609.09009) | 2609.09009 | 2026-09-08 | v1（检查 2026-09-15） | 关联方法：约束离散任务自纠错 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-15 |
-| [ICF-DLM](https://arxiv.org/abs/2609.07756) | 2609.07756 | 2026-09-07 | v1（检查 2026-09-15） | 科学预测与数值生成 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-15 |
-| [In-Place Instruction Following / Graft](https://arxiv.org/abs/2609.07160) | 2609.07160 | 2026-09-07 | v1（检查 2026-09-15） | 任意位置约束、后训练与评估 | [2026-09-12](daily/2026-09-12.md)（旧文补录）；复查 2026-09-15 |
-| [DFlow](https://arxiv.org/abs/2609.06498) | 2609.06498 | 2026-09-06 | v1（检查 2026-09-15） | 块扩散投机解码与服务 | [2026-09-12](daily/2026-09-12.md)（旧文补录）；复查 2026-09-15 |
-| [Coupled-Noise Distillation / CONDOR](https://arxiv.org/abs/2609.06324) | 2609.06324 | 2026-09-06 | v2（2026-09-11；检查 2026-09-15） | 单步块生成与蒸馏 | [2026-09-12](daily/2026-09-12.md)（旧文补录）；v2 补正 [2026-09-14](daily/2026-09-14.md) |
-| [移动边缘 DLM 综述](https://arxiv.org/abs/2609.04778) | 2609.04778 | 2026-09-04 | v1（检查 2026-09-15） | 边缘部署与 Agent | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-15 |
-| [PlaidQ](https://arxiv.org/abs/2609.04531) | 2609.04531 | 2026-09-03 | v2（2026-09-10；撤稿；检查 2026-09-15） | 连续扩散、蒸馏与代码生成 | [2026-09-11](daily/2026-09-11.md)；状态更正 [2026-09-13](daily/2026-09-13.md)；复查 2026-09-15 |
-| [Uno：Unlocking Lossless Speedups](https://arxiv.org/abs/2609.04010) | 2609.04010 | 2026-09-03 | v1（检查 2026-09-15） | AR–扩散混合与无损加速 | [2026-09-12](daily/2026-09-12.md)（旧文补录）；复查 2026-09-15 |
-| [PILL](https://arxiv.org/abs/2609.02108) | 2609.02108 | 2026-09-02 | v1（检查 2026-09-15） | 自适应长度与填空 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-15 |
-| [Q-Skew](https://arxiv.org/abs/2609.00873) | 2609.00873 | 2026-09-01 | v1（检查 2026-09-15） | 微调与隐私评估 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-15 |
-| [Beyond Token Positions / RAEC](https://arxiv.org/abs/2609.00495) | 2609.00495 | 2026-08-31 | v1（检查 2026-09-15） | 去噪步骤上的安全对齐 | [2026-09-12](daily/2026-09-12.md)（旧文补录）；复查 2026-09-15 |
-| [CARVE](https://arxiv.org/abs/2608.30922) | 2608.30922 | 2026-08-31 | v1（检查 2026-09-15） | 免训练可变长度解码 | [2026-09-12](daily/2026-09-12.md)（旧文补录）；复查 2026-09-15 |
-| [DiffPDE](https://arxiv.org/abs/2608.30532) | 2608.30532 | 2026-08-31 | v1（检查 2026-09-15） | 代码修复、执行反馈与 RL | [2026-09-12](daily/2026-09-12.md)（旧文补录）；复查 2026-09-15 |
+| [GroupKV](https://arxiv.org/abs/2609.17573) | 2609.17573 | 2026-07-30 | v1（检查 2026-09-16） | 长上下文、分组稀疏 KV 与 CPU 卸载 | [2026-09-16](daily/2026-09-16.md)（窗口内新公告） |
+| [DANTINOX](https://arxiv.org/abs/2609.17535) | 2609.17535 | 2026-07-11 | v1（检查 2026-09-16） | AR、离散扩散与连续流统一框架 | [2026-09-16](daily/2026-09-16.md)（窗口内新公告） |
+| [Early-Bird Decoding](https://arxiv.org/abs/2609.16450) | 2609.16450 | 2026-09-15 | v1（检查 2026-09-16） | 学习式可变块、并行提交与服务 | [2026-09-15](daily/2026-09-15.md)（截止后新公告） |
+| [Register Tokens](https://arxiv.org/abs/2609.16372) | 2609.16372 | 2026-09-14 | v1（检查 2026-09-16） | 固定连续状态、跨块推理与代码 | [2026-09-15](daily/2026-09-15.md)（截止后新公告）；资源核验 [2026-09-16](daily/2026-09-16.md) |
+| [PrismDiff / Joint Multi-Stream Diffusion](https://arxiv.org/abs/2609.16312) | 2609.16312 | 2026-09-14 | v1（检查 2026-09-16） | 多流扩散、翻译与并行服务 | [2026-09-15](daily/2026-09-15.md)（截止后新公告） |
+| [Discrete Beckmann Transport Models / DBTM](https://arxiv.org/abs/2609.15903) | 2609.15903 | 2026-09-14 | v2（2026-09-15；检查 2026-09-16） | 自治传输图、一步生成与自纠错 | [2026-09-15](daily/2026-09-15.md)（旧文补录 / v2 更新）；资源核验 [2026-09-16](daily/2026-09-16.md) |
+| [Orthrus 数值精度复现](https://arxiv.org/abs/2609.15504) | 2609.15504 | 2026-09-14 | v1（检查 2026-09-16） | AR–扩散混合、无损性与数值精度 | [2026-09-14](daily/2026-09-14.md)（截止后新公告） |
+| [Temporal Self-Distillation](https://arxiv.org/abs/2609.15177) | 2609.15177 | 2026-09-14 | v1（检查 2026-09-16） | 时间自蒸馏与低 NFE 解码 | [2026-09-14](daily/2026-09-14.md)（截止后新公告） |
+| [DA-DLM](https://arxiv.org/abs/2609.15070) | 2609.15070 | 2026-09-14 | v1（检查 2026-09-16） | 位置 DAG、token 依赖与重掩码 | [2026-09-14](daily/2026-09-14.md)（截止后新公告） |
+| [DenMark](https://arxiv.org/abs/2609.14257) | 2609.14257 | 2026-09-13 | v1（检查 2026-09-16） | 扩散语义水印与鲁棒检测 | [2026-09-14](daily/2026-09-14.md)（截止后新公告）；资源更新 [2026-09-15](daily/2026-09-15.md) |
+| [CanvasAnneal](https://arxiv.org/abs/2609.13060) | 2609.13060 | 2026-09-11 | v1（检查 2026-09-16） | 推理/工具使用 RL 与课程探索 | [2026-09-14](daily/2026-09-14.md)（旧文补录） |
+| [Representation-based Masked Diffusion Model](https://arxiv.org/abs/2609.12382) | 2609.12382 | 2026-09-11 | v1（检查 2026-09-16） | 全局语义表征与并行联合协调 | [2026-09-13](daily/2026-09-13.md)（截止后新公告）；复查 2026-09-16 |
+| [Fixed State, Long Reach](https://arxiv.org/abs/2609.11998) | 2609.11998 | 2026-09-09 | v1（检查 2026-09-16） | Mamba/混合骨干与常数状态缓存 | [2026-09-14](daily/2026-09-14.md)（旧文补录） |
+| [Thinking with Looped Flows](https://arxiv.org/abs/2609.11801) | 2609.11801 | 2026-09-10 | v1（检查 2026-09-16） | 关联方法：循环流与迭代推理 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-16 |
+| [Routing by Reasoning Need](https://arxiv.org/abs/2609.11315) | 2609.11315 | 2026-09-10 | v1（检查 2026-09-16） | 扩散 VLM 的轨迹感知解码 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-16 |
+| [Flow Duality and Source Geometry](https://arxiv.org/abs/2609.10863) | 2609.10863 | 2026-09-09 | v2（2026-09-13；检查 2026-09-16） | 连续—离散流对偶与源分布设计 | [2026-09-13](daily/2026-09-13.md)（旧文补录）；v2 补正 [2026-09-14](daily/2026-09-14.md) |
+| [Epoch](https://arxiv.org/abs/2609.09748) | 2609.09748 | 2026-09-09 | v1（检查 2026-09-16） | MoE 推理与服务 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-16 |
+| [Let It Go / Self-Correct](https://arxiv.org/abs/2609.09009) | 2609.09009 | 2026-09-08 | v1（检查 2026-09-16） | 关联方法：约束离散任务自纠错 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-16 |
+| [ICF-DLM](https://arxiv.org/abs/2609.07756) | 2609.07756 | 2026-09-07 | v1（检查 2026-09-16） | 科学预测与数值生成 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-16 |
+| [In-Place Instruction Following / Graft](https://arxiv.org/abs/2609.07160) | 2609.07160 | 2026-09-07 | v1（检查 2026-09-16） | 任意位置约束、后训练与评估 | [2026-09-12](daily/2026-09-12.md)（旧文补录）；复查 2026-09-16 |
+| [DFlow](https://arxiv.org/abs/2609.06498) | 2609.06498 | 2026-09-06 | v1（检查 2026-09-16） | 块扩散投机解码与服务 | [2026-09-12](daily/2026-09-12.md)（旧文补录）；复查 2026-09-16 |
+| [Coupled-Noise Distillation / CONDOR](https://arxiv.org/abs/2609.06324) | 2609.06324 | 2026-09-06 | v2（2026-09-11；检查 2026-09-16） | 单步块生成与蒸馏 | [2026-09-12](daily/2026-09-12.md)（旧文补录）；v2 补正 [2026-09-14](daily/2026-09-14.md) |
+| [移动边缘 DLM 综述](https://arxiv.org/abs/2609.04778) | 2609.04778 | 2026-09-04 | v1（检查 2026-09-16） | 边缘部署与 Agent | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-16 |
+| [PlaidQ](https://arxiv.org/abs/2609.04531) | 2609.04531 | 2026-09-03 | v2（2026-09-10；撤稿；检查 2026-09-16） | 连续扩散、蒸馏与代码生成 | [2026-09-11](daily/2026-09-11.md)；状态更正 [2026-09-13](daily/2026-09-13.md)；复查 2026-09-16 |
+| [Uno：Unlocking Lossless Speedups](https://arxiv.org/abs/2609.04010) | 2609.04010 | 2026-09-03 | v1（检查 2026-09-16） | AR–扩散混合与无损加速 | [2026-09-12](daily/2026-09-12.md)（旧文补录）；复查 2026-09-16 |
+| [PILL](https://arxiv.org/abs/2609.02108) | 2609.02108 | 2026-09-02 | v1（检查 2026-09-16） | 自适应长度与填空 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-16 |
+| [Q-Skew](https://arxiv.org/abs/2609.00873) | 2609.00873 | 2026-09-01 | v1（检查 2026-09-16） | 微调与隐私评估 | [2026-09-11](daily/2026-09-11.md)；复查 2026-09-16 |
+| [Beyond Token Positions / RAEC](https://arxiv.org/abs/2609.00495) | 2609.00495 | 2026-08-31 | v1（检查 2026-09-16） | 去噪步骤上的安全对齐 | [2026-09-12](daily/2026-09-12.md)（旧文补录）；复查 2026-09-16 |
+| [CARVE](https://arxiv.org/abs/2608.30922) | 2608.30922 | 2026-08-31 | v1（检查 2026-09-16） | 免训练可变长度解码 | [2026-09-12](daily/2026-09-12.md)（旧文补录）；复查 2026-09-16 |
+| [DiffPDE](https://arxiv.org/abs/2608.30532) | 2608.30532 | 2026-08-31 | v1（检查 2026-09-16） | 代码修复、执行反馈与 RL | [2026-09-12](daily/2026-09-12.md)（旧文补录）；复查 2026-09-16 |
+| [ASRD](https://arxiv.org/abs/2606.16847) | 2606.16847 | 2026-06-15 | v5（2026-09-16；检查 2026-09-16） | 稳定锚点、可撤销提交与重掩码 | [2026-09-16](daily/2026-09-16.md)（补录 / v5 代码公开） |
 
 ## 发表声明与资源核验
 
-核验日期：2026-09-15。作者自述录用与正式论文集确认分开记录；“仓库存在”与“有可运行实现”也分开记录。
+核验日期：2026-09-16。作者自述录用与正式论文集确认分开记录；“仓库存在”与“有可运行实现”也分开记录。
 
 | 论文 | 当前证据与待办 |
 | --- | --- |
+| [GroupKV](https://arxiv.org/abs/2609.17573) | arXiv v1 未给作者官方代码、模型或数据产物入口；按题名、方法名和作者定向检索未定位可归属作者的实现。系统结果只覆盖 LLaDA/UltraLLaDA 与 A100/RTX 4090，且部分基线为适配实现，需公开代码后复核端到端条件。 |
+| [DANTINOX](https://arxiv.org/abs/2609.17535) | [作者仓库](https://github.com/winstonsmith1897/DantinoX)为非空公开实现，含训练代码、文档、测试与配置，采用 MIT 许可；[PyPI 包](https://pypi.org/project/dantinox/)可访问。论文实验是小模型、单语料受控比较，本期只核验资源可得性，未运行或复现。 |
 | [Early-Bird Decoding](https://arxiv.org/abs/2609.16450) | arXiv v1 未给作者官方代码、路由器权重或轨迹数据入口；题名、arXiv ID 与作者定向 GitHub 检索未定位官方实现。论文主要速度表采用 batch 1，部分设置不启用 KV cache；生产服务收益待用 continuous batching 和统一 cache 条件复核。 |
-| [Register Tokens](https://arxiv.org/abs/2609.16372) | 论文承诺代码发布到 [lbertge/dllm-registers-reasoning](https://github.com/lbertge/dllm-registers-reasoning)，但截止时返回 404。[60K 训练混合数据](https://huggingface.co/datasets/albertge/mix60k-math-code-sft)与[模型集合](https://huggingface.co/collections/albertge/dllm-registers)实际可访问；因此代码为“作者承诺”，数据与检查点为“可下载”。 |
+| [Register Tokens](https://arxiv.org/abs/2609.16372) | 论文所列旧路径本期可解析到 [SprocketLab/dllm-registers](https://github.com/SprocketLab/dllm-registers)；仓库含 SFT、配置、文档、评测和推理代码，采用 Apache 许可，属于非空实现。[60K 训练混合数据](https://huggingface.co/datasets/albertge/mix60k-math-code-sft)与[模型集合](https://huggingface.co/collections/albertge/dllm-registers)亦可访问。仓库代码推送早于本期窗口，故记为访问状态纠正而非当日发布，详情见[日报](daily/2026-09-16.md)。 |
 | [PrismDiff / Joint Multi-Stream Diffusion](https://arxiv.org/abs/2609.16312) | arXiv v1 未给作者代码、模型或项目页；题名与作者定向 GitHub 检索未定位官方实现。Multi30K、Europarl 与 LaBSE 是外部公开资源，不等于本文产物已发布。 |
-| [DBTM](https://arxiv.org/abs/2609.15903) | v2 新增 Code Availability 并链接 [sophtang/DBTM](https://github.com/sophtang/DBTM)，但截止时该地址返回 404，不能写成代码已开放；未定位可核验的作者模型或训练产物。v2 另明确顶点流形边界条件，详情见[日报](daily/2026-09-15.md)。 |
+| [DBTM](https://arxiv.org/abs/2609.15903) | v2 的 [sophtang/DBTM](https://github.com/sophtang/DBTM) 链接本期已可访问，但仓库只有 README 和图片资源，没有训练、推理、配置、权重或评测代码，仍不能写成实现已开放。初始化提交早于本期窗口；v2 的方法变化见[上一期日报](daily/2026-09-15.md)，资源纠正见[本期日报](daily/2026-09-16.md)。 |
 | [Orthrus 数值精度复现](https://arxiv.org/abs/2609.15504) | arXiv 备注“under review”，不等同于录用。正文链接了原 Orthrus 的 Hugging Face 检查点，但没有给出本次独立训练模型、4,113,358 条教师生成样本或复现代码的作者下载入口；不能据此复现独立训练结果。 |
 | [Temporal Self-Distillation](https://arxiv.org/abs/2609.15177) | arXiv v1 未给作者官方代码、模型或训练轨迹入口；正文引用的公开数据集与 GDSD 检查点属于外部资源。本期只核验论文全文，未运行训练或评测。 |
 | [DA-DLM](https://arxiv.org/abs/2609.15070) | 摘要声称代码已公开，但[作者仓库](https://github.com/jipy0222/DA-DLM)当前只有 LICENSE 和简短 README，README 写明代码稍后发布，没有可运行实现。README 自述为“EMNLP2026 paper”，本期未在正式论文集确认，故不写作已正式发表。 |
@@ -68,6 +73,7 @@
 | [PlaidQ](https://arxiv.org/abs/2609.04531) | 当前 v2 已撤稿，版本页注明为处理研究资源使用的机构披露要求；v2 无可下载 PDF。原文给出的[作者仓库](https://github.com/pengzhangzhi/plaidq)仍返回 404，代码和权重不可核验。撤稿理由不自动等同于方法或结果被否定。 |
 | [Let It Go / Self-Correct](https://arxiv.org/abs/2609.09009) | 正文承诺[官方仓库](https://github.com/MariiaDrozdova/continuous_diffusion_for_constrained_tasks)，当前仍为空；属于关联方法。 |
 | [Thinking with Looped Flows](https://arxiv.org/abs/2609.11801) | 未定位可核验的作者代码；属于关联方法，不能把其 ARC pass@2 写成语言模型通用准确率。 |
+| [ASRD](https://arxiv.org/abs/2606.16847) | v5 新增 [作者仓库](https://github.com/preordinary/ASRD)入口；仓库为 MIT 许可的非空实现，含四组实验配置/脚本和评测目录。本期未运行代码。README 自述“Accepted to EMNLP 2026 (Main Conference)”，但未在正式论文集或官方会议条目独立确认，故仅记录为作者自述录用。 |
 
 ## 使用约定
 
